@@ -23,7 +23,7 @@ Evento exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologia
 
 ## 🚀 Tecnologias
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+Techs:
 
 - HTML e CSS
 - JavaScript e JSON
