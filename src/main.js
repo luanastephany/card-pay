@@ -7,8 +7,14 @@ const ccBackground2 = document.querySelector(
   ".cc-bg svg > g g:nth-child(2) path"
 )
 
-const colors = {
-  visa: [],
-  mastercsrd: [],
-  default: [],
+function setCardType(type) {
+  const colors = {
+    visa: ["#436D99", "#2D57F2"],
+    mastercard: ["#DF6F29", "#C69347"],
+    default: ["black", "grey"],
+  }
+  ccBackground1.setAttribute("fill", colors[type][0])
+  ccBackground2.setAttribute("fill", colors[type][1])
 }
+
+setCardType("visa")
