@@ -9,7 +9,7 @@ function setCardType(type) {
   const colors = {
     visa: ["#436D99", "#2D57F2"],
     mastercard: ["#DF6F29", "#C69347"],
-    default: ["black", "grey"],
+    default: ["blue", "grey"],
   };
   ccBackground1.setAttribute("fill", colors[type][0]);
   ccBackground2.setAttribute("fill", colors[type][1]);
@@ -74,3 +74,20 @@ const cardNumberPattern = {
   },
 };
 const cardNumberMasked = IMask(cardNumber, cardNumberPattern);
+
+//updating card holder
+const cardHolder = document.querySelector("#card-holder");
+cardHolder.addEventListener("input", () => {
+  const ccHolder = document.querySelector(".cc-holder .value");
+  ccHolder.innerText = cardHolder.value.length === 0 ? "JANE DOE" : cardHolder.value;
+});
+
+//add button
+const addButton = document.getElementById("add-card");
+addButton.addEventListener("click", () => {
+  alert("Your card was added");
+});
+
+document.querySelector("form").addEventListener("submit", (event) => {
+  event.preventDefault();
+});
