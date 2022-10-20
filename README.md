@@ -13,16 +13,16 @@
 <br>
 
 <p align="center">
-  <img alt="cardpay" src=".github/project.png" width="100%">
+  <img alt="cardpay" src="https://user-images.githubusercontent.com/70078964/197037659-d4eff978-d90c-43b8-ba23-fd13819de3ef.png" width="100%">
 </p>
 
 ## 🚀 Stacks
 
 Stacks:
 
-- HTML e CSS
-- JavaScript e JSON
-- [Node e NPM](https://nodejs.org/)
+- HTML & CSS
+- JavaScript & JSON
+- [Node & NPM](https://nodejs.org/)
 - [Vite](https://vitejs.dev/)
 - [iMask](https://imask.js.org)
 
